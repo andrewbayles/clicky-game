@@ -74,6 +74,17 @@ function App() {
       
       <Navbar />
 
+        <div>
+          <h3>Games List</h3>
+          {this.state.gameCards.map(card => (
+            <Card
+              id={card.id}
+              key={card.image}
+              clicked={card.clicked}
+            />
+          ))}
+        </div>
+
       <footer>
         <p>Clicky Game</p>
       </footer>
