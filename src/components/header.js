@@ -7,17 +7,17 @@ const wrong = "";
 const style = {
     HeaderStyle: {
         marginTop: 0,
-        height: "12vh",
+        height: "100px",
         textAlign: "center",
         width: "100%",
-        background: "black",
+        background: "#555555",
         color: "white"
     }
 }
 function Header() {
     return (
     <div style={style.HeaderStyle} className="headerDiv">
-        <h2 id="instructions">Click an image to gain points, click the same image twice game over!</h2>
+        <h2 id="instructions">Click images for points. Don't click the same one twice!</h2>
         <h3 id="score">Score: { score } | High Score: { highScore } | Wrong: { wrong }</h3>
     </div >
     );
