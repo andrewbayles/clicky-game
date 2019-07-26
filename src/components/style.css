@@ -1,8 +1,8 @@
 .card{
     background: white;
     border: 1px solid #aaaaaa;
-    margin: 20px;
-    width: 150px;
+    margin: 10px;
+    width: 170px;
   }
   
   .card > .img-container{

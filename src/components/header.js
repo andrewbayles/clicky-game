@@ -2,7 +2,6 @@ import React from "react";
 
 const score = 0;
 const highScore = 0;
-const wrong = "";
 
 const style = {
     HeaderStyle: {
@@ -18,7 +17,7 @@ function Header() {
     return (
     <div style={style.HeaderStyle} className="headerDiv">
         <h2 id="instructions">Click images for points. Don't click the same one twice!</h2>
-        <h3 id="score">Score: { score } | High Score: { highScore } | Wrong: { wrong }</h3>
+        <h3 id="score">Score: { score } | High Score: { highScore }</h3>
     </div >
     );
 }
